@@ -59,14 +59,14 @@ create_table.addEventListener('click' , function(e){
     // });
 });
 
-// clear_Btn.addEventListener('submit', function(event) {
-//     event.preventDefault();
-//     document.querySelector('.cell').style.backgroundColor =  '#ffffff';
-//   });
+clear_Btn.addEventListener('submit', function(event) {
+    event.preventDefault();
+    document.querySelector('.cell').style.backgroundColor =  '#ffffff';
+  });
   
-// reset_Btn.addEventListener('click',function() {
-//     table.innerHTML = '';
-//   });
+reset_Btn.addEventListener('click',function() {
+    table.innerHTML = '';
+  });
 
 // let cell = document.querySelector('.cell');  
 // cell.addEventListener("click",function(e){
