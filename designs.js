@@ -13,8 +13,8 @@ function makeGrid() {
     para.innerHTML = "<em>One Click to <u>add color</u>; Double Click to <u>remove color</u></em>";
     
     // Const Var 
-    const inputHeight = document.getElementById('input_height');
-    const inputWidth = document.getElementById('input_width');
+    const inputHeight = document.getElementById('input_height').value;
+    const inputWidth = document.getElementById('input_width').value;
 
     // Creating cell 
     for (let i=0 ; i<inputHeight ;i++){
